@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+.box1{
+
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    margin: 50px;
+    position: relative;
+    
+}
+.box1 span {
+    position: absolute;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    
+    /* bottom: 80px; */
+    /* top: 50px; */
+    /* left: 50px; */
+    /* right: 50px; */
+    z-index: 2;
+    background-color: fuchsia;
+}
+.box2{
+    height: 200px;
+    width: 100px;
+    background-color: rgb(39, 36, 39);
+    position: relative;
+    z-index: 1;
+
+}
+a {
+    text-decoration: none;
+}
+
+</style>
+<body>
+    
+<div class="box2"></div>
+<span>span etiketi</span>
+    <div class="box1">
+       
+        <span>span etiketi </span>
+        <p>paragraf etiketi</p>
+    </div>
+    <div class="box1">
+       
+        <span>span etiketi </span>
+        <p>paragraf etiketi</p>
+    </div>
+    <div class="box1">
+       
+        <span>span etiketi </span>
+        <p>paragraf etiketi</p>
+    </div>
+
+    <a href="#">a etiketi</a>
+</body>
+</html>

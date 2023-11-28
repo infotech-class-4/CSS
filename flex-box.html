@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+.kutular {
+    display: flex;
+    width: 900px;
+    height: 700px;
+    background-color: rebeccapurple;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: flex-start;
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+
+
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+     /* flex-flow: column wrap;
+     flex-flow: row wrap; */
+
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: stretch; */
+    align-content: center;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height: 100px;
+    background-color: rgb(60, 232, 12);
+    border-radius: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.box4{
+ background-color: aqua;
+ /* order: 5; */
+flex-grow: 3;
+ /* flex-shrink: 4; */
+}
+
+.box5{
+background-color: burlywood;
+/* order: 4; */
+flex-grow: 5;
+flex-shrink: 5;
+}
+
+
+    </style>
+</head>
+<body>
+   
+    <div class="kutular">
+        <div class="box">1.box</div>
+        <div class="box">2.box</div>
+        <div class="box box3">3.box</div>
+        <div class="box box4">4.box</div>
+        <div class="box box5">5.box</div>
+        <!-- <div class="box">6.box</div>
+        <div class="box">7.box</div>
+        <div class="box">8.box</div>
+        <div class="box">9.box</div>
+        <div class="box">10.box</div> -->
+    </div>
+
+
+</body>
+</html>

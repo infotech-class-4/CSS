@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seçiciler</title>
+
+    <style>
+/* h1{
+    color: red;
+    background-color: blue;
+}
+
+
+div{
+    background-color: blue;
+}
+
+#test{
+    background-color: red;
+} */
+
+
+/* div, p {
+    color: red;
+}
+
+p.color-red, div.test {
+    color:black;
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* div ul {
+    list-style: none;
+}
+
+div+ul {
+    list-style: circle;
+}
+ */
+
+
+/* .list li:nth-child(3){
+    color: red;
+}
+
+.list li:first-child {
+    color: aqua;
+} */
+
+.list > li {
+    background-color: red;
+}
+
+
+::selection {
+    background-color: red;
+    color: rgb(240, 244, 11);
+}
+
+input {
+    color: blueviolet;
+}
+
+input::placeholder {
+    color: rgb(73, 43, 226);
+    font-size: 20px;
+}
+a:hover {
+    background-color: blue;
+    font-size: 20px;
+    color: brown;
+    transition: all 1s;
+    border-radius: 10px;
+    
+}
+
+button{
+    display: none;
+    opacity: 0.4;
+}
+
+button:hover{
+    background-color: blueviolet;
+    border-radius: 10px;
+    opacity: 1;
+    
+   
+}
+
+input[type="checkbox"]:checked + button {
+    display:block;
+} 
+span {
+    display: inline-block;
+    height: 50px;
+    background-color: blue;
+}
+.block {
+    background-color: red;
+    height: 30px;
+}
+
+    </style>
+</head>
+<body>
+    
+<div class="test color-red"> div etiketi</div>
+<div class="test">div etiketi</div> 
+  <p class="test color-red" id="deneme">p etiketi</p>
+<p class="test color-red">p etiketi</p> 
+
+
+
+
+<div class="box">
+
+    <ul class="list">
+        <li>list-1</li>
+        <li>list-2
+            <ul>
+                <li>list2.2</li>
+            </ul>
+        </li>
+        <li>list-3</li>
+        <li>list-4</li>
+        <li>list-5</li>
+    </ul>
+</div>
+<ul>
+    <li>birinci deger</li>
+    <li>birinci deger</li>
+    <li>birinci deger</li>
+</ul>
+
+<input type="text" placeholder="adınızı yazınız">
+
+
+<a href="">infotecacademy</a>
+
+<input type="checkbox"> kullanıcı sözleşmesini okudum ve kabul ediyorum.
+<button>gönder</button>
+
+<div class="block">block elemanı</div>
+<span>inline elemanı</span>
+</body>
+</html>
